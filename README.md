@@ -1,1 +1,1 @@
-# k8s-operator
+# Kubernetes Operator built with KubeBuilder
