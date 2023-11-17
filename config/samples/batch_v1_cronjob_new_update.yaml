@@ -7,10 +7,10 @@ metadata:
     app.kubernetes.io/part-of: k8s-operator
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/created-by: k8s-operator
-  name: cronjob-sample
+  name: cronjob-sample-update
 spec:
   # TODO(user): Add fields here
-  schedule: "*/5 * * * *"
+  schedule: "*/1 * * * *"
   startingDeadlineSeconds: 60
   concurrencyPolicy: Allow # explicitly specify, but Allow is also default.
   jobTemplate:
